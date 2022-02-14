@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Aspire/!svn/ver/20179/automation_workspace_Devops1/Zabbix_MemoryUtilization/drivers
+END
+geckodriver.exe
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Aspire/!svn/ver/20127/automation_workspace_Devops1/Zabbix_MemoryUtilization/drivers/geckodriver.exe
+END
+chromedriver.exe
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Aspire/!svn/ver/20179/automation_workspace_Devops1/Zabbix_MemoryUtilization/drivers/chromedriver.exe
+END
+IEDriverServer.exe
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Aspire/!svn/ver/20127/automation_workspace_Devops1/Zabbix_MemoryUtilization/drivers/IEDriverServer.exe
+END
