@@ -1,0 +1,7 @@
+2022-02-16 14:51:44,781 - objectRepository.HomePage -INFO - Searched city Name is Patna, Bihar
+2022-02-16 14:51:49,103 - objectRepository.SearchLocationPage -INFO - Total numer of locations after doing search with city Name is 7
+2022-02-16 14:51:50,161 - objectRepository.SearchLocationPage -INFO - Getting details of "Patna, Bihar"
+2022-02-16 14:51:54,358 - objectRepository.WeatherForecastPage -INFO - Current Weather Temperature is 23°C
+2022-02-16 14:51:54,539 - objectRepository.WeatherForecastPage -INFO - Current Weather Temperature is 23°C
+2022-02-16 14:51:54,571 - objectRepository.WeatherForecastPage -INFO - Current Weather Temperature of the searched place is 23
+2022-02-16 14:52:48,090 - objectRepository.WeatherForecastPage -INFO - Weather Temperature of today and last six days are [27, 22, 25, 24, 24, 23, 24]

@@ -1,5 +1,13 @@
 package synchronizerHelper;
 
+/**
+ * Wait class is written to handle both implicit and explicit wait condition
+ * while the automation script is in progress.
+ * 
+ * @author abhishek shandilya
+ *
+ */
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;

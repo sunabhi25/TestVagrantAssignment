@@ -1,5 +1,12 @@
 package objectRepository;
 
+/*
+ * In this class we have defined the pom for the Search Location Page and defined the WebeElement we need to work on this particular page.
+ * This page is developed based on the principal of Encapsulation
+ * 
+ * @author Abhishek Shandilya
+ */
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -24,6 +31,9 @@ public class SearchLocationPage extends UIVerification {
 		PageFactory.initElements(driver, this);
 	}
 
+	/*
+	 * Method to get the count of the location based on our search
+	 */
 	public void getTotalNumberOfLocation() {
 		totalNumberOfLocations = Integer.parseInt(GenericUtils.getText("xpath", numberOfLocation));
 		getLogs(this.getClass());
@@ -31,6 +41,9 @@ public class SearchLocationPage extends UIVerification {
 		ExtentTestManager.getTest().log(Status.INFO, "Total numer of locations after doing search with city Name is " + totalNumberOfLocations);
 	}
 
+	/*
+	 * Method to get the name of the location based on our search
+	 */
 	public void getNameOfSearchedLocation() {
 		nameOfLocations = GenericUtils.getText("xpath", searchedLocation);
 		getLogs(this.getClass());
@@ -38,6 +51,9 @@ public class SearchLocationPage extends UIVerification {
 		ExtentTestManager.getTest().log(Status.INFO, "Getting details of " + nameOfLocations);
 	}
 
+	/*
+	 * Method to click on the location we have searched
+	 */
 	public void clickOnLocations(){
 		SearchLocationPage s = new SearchLocationPage(driver);
 		WeatherForecastPage w = new WeatherForecastPage(driver);

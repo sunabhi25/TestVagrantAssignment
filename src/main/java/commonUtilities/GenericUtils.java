@@ -1,5 +1,11 @@
 package commonUtilities;
 
+/**
+ * Generic Class is basically the collection of all the actions that selenium can handle and which is used to handle our application.
+ * 
+ * @author Abhishek Shandilya
+ */
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -70,42 +76,7 @@ public class GenericUtils extends BaseTestUI {
 		return element;
 	}
 	
-	/*
-	 * public static List<WebElement> getElements(String locatorType, String
-	 * locatorValue) { try { if (locatorType.equalsIgnoreCase("id")) {
-	 * Wait.presenceOfElementLocated(By.id(locatorValue)); elements =
-	 * driver.findElements(By.id(locatorValue)); return elements; } else if
-	 * (locatorType.equalsIgnoreCase("tag") ||
-	 * locatorType.equalsIgnoreCase("tagName")) {
-	 * Wait.presenceOfElementLocated(By.tagName(locatorValue)); elements =
-	 * driver.findElements(By.tagName(locatorValue)); return elements; } else if
-	 * (locatorType.equalsIgnoreCase("name")) {
-	 * Wait.presenceOfElementLocated(By.name(locatorValue)); elements =
-	 * driver.findElements(By.name(locatorValue)); return elements; } else if
-	 * (locatorType.equalsIgnoreCase("classname")) {
-	 * Wait.presenceOfElementLocated(By.className(locatorValue)); elements =
-	 * driver.findElements(By.className(locatorValue)); return elements; } else if
-	 * (locatorType.equalsIgnoreCase("cssSelector")) {
-	 * Wait.presenceOfElementLocated(By.cssSelector(locatorValue)); elements =
-	 * driver.findElements(By.cssSelector(locatorValue)); return elements;
-	 * 
-	 * } else if (locatorType.equalsIgnoreCase("linkText")) {
-	 * Wait.presenceOfElementLocated(By.linkText(locatorValue)); elements =
-	 * driver.findElements(By.linkText(locatorValue)); return elements;
-	 * 
-	 * } else if (locatorType.equalsIgnoreCase("partialLinkText")) {
-	 * Wait.presenceOfElementLocated(By.partialLinkText(locatorValue)); elements =
-	 * driver.findElements(By.partialLinkText(locatorValue)); return elements; }
-	 * else if (locatorType.equalsIgnoreCase("xpath")) {
-	 * Wait.presenceOfElementLocated(By.xpath(locatorValue)); elements =
-	 * driver.findElements(By.xpath(locatorValue)); return elements; } else {
-	 * Reporter.log("Sorry, No Matches found. Please check arguments passed", true);
-	 * return null; } } catch (Exception e) { e.printStackTrace(); } return
-	 * elements; }
-	 */
 	
-	
-
 	/**
 	 * Method to click on the element
 	 * 
@@ -132,7 +103,12 @@ public class GenericUtils extends BaseTestUI {
 			element.sendKeys(textBoxValue,Keys.ENTER);
 		}
 	}
-
+	
+	/**
+	 * Method to get the text of the WebElement
+	 * 
+	 * @param lcocator type , locator value , value
+	 */
 	public static String getText(String locatorType, String locatorValue) {
 		GenericUtils.getElement(locatorType, locatorValue);
 		getElement(locatorType, locatorValue);
@@ -140,7 +116,11 @@ public class GenericUtils extends BaseTestUI {
 	}
 	
 	
-
+	/**
+	 * Method to check whether the element is displayed or not
+	 * 
+	 * @param lcocator type , locator value , value
+	 */
 	public static boolean isDisplayed(String locatorType, String locatorValue) {
 		getElement(locatorType, locatorValue);
 		return element.isDisplayed();

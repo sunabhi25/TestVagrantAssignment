@@ -1,5 +1,12 @@
 package extentReports;
 
+/*
+ * This class is used to define the action of extent report in different phases of test execution and it has implemented the
+ * methods of ITestListeners and overrided the methods present in them.
+ * 
+ * @author Abhishek Shandilya
+ */
+
 import java.io.IOException;
 
 /*

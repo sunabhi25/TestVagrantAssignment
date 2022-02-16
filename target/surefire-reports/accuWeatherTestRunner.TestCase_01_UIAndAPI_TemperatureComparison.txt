@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 49.738 sec <<< FAILURE! - in accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison
+compare_UI_And_API_Temperature(accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison)  Time elapsed: 0.193 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison.compare_UI_And_API_Temperature(TestCase_01_UIAndAPI_TemperatureComparison.java:12)
+
+compareUpcomingWeekTemperatureWithToday(accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison.compareUpcomingWeekTemperatureWithToday(TestCase_01_UIAndAPI_TemperatureComparison.java:17)
+
+comparePastWeekTemperatureWithToday(accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison.comparePastWeekTemperatureWithToday(TestCase_01_UIAndAPI_TemperatureComparison.java:22)
+

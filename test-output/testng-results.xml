@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Close the test]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96367" started-at="2022-02-16T09:21:13Z" finished-at="2022-02-16T09:22:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="96367" started-at="2022-02-16T09:21:13Z" finished-at="2022-02-16T09:22:49Z">
+      <class name="accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison">
+        <test-method status="PASS" signature="clearFoldersAndFiles()[pri:0, instance:accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison@6676f6a0]" name="clearFoldersAndFiles" is-config="true" duration-ms="55" started-at="2022-02-16T14:51:13Z" finished-at="2022-02-16T14:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFoldersAndFiles -->
+        <test-method status="PASS" signature="openBrowser(int)[pri:0, instance:accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison@6676f6a0]" name="openBrowser" is-config="true" duration-ms="17999" started-at="2022-02-16T14:51:13Z" finished-at="2022-02-16T14:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="comparePastWeekTemperatureWithToday()[pri:3, instance:accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison@6676f6a0]" name="comparePastWeekTemperatureWithToday" duration-ms="76423" started-at="2022-02-16T14:51:31Z" finished-at="2022-02-16T14:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparePastWeekTemperatureWithToday -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison@6676f6a0]" name="closeBrowser" is-config="true" duration-ms="1673" started-at="2022-02-16T14:52:48Z" finished-at="2022-02-16T14:52:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

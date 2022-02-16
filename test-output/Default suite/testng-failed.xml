@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison">
+        <methods>
+          <include name="compareUpcomingWeekTemperatureWithToday"/>
+          <include name="clearFoldersAndFiles"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="comparePastWeekTemperatureWithToday"/>
+          <include name="compare_UI_And_API_Temperature"/>
+        </methods>
+      </class> <!-- accuWeatherTestRunner.TestCase_01_UIAndAPI_TemperatureComparison -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
